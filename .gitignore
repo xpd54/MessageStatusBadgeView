@@ -1,0 +1,12 @@
+.DS_Store*
+bin/
+gen/
+out/
+build/
+TAGS
+xcuserdata/
+.irb-history
+.irbrc
+*.psd
+*.patch
+project.xcworkspace/
