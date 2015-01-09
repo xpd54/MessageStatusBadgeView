@@ -14,6 +14,7 @@
 		16289C2E1A5FE95C002C5C4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16289C2D1A5FE95C002C5C4C /* Images.xcassets */; };
 		16289C311A5FE95C002C5C4C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16289C2F1A5FE95C002C5C4C /* LaunchScreen.xib */; };
 		16289C3D1A5FE95C002C5C4C /* MessageStatusBadgeViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16289C3C1A5FE95C002C5C4C /* MessageStatusBadgeViewTests.m */; };
+		16289C4D1A5FF052002C5C4C /* BadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16289C4C1A5FF052002C5C4C /* BadgeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		16289C361A5FE95C002C5C4C /* MessageStatusBadgeViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessageStatusBadgeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16289C3B1A5FE95C002C5C4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16289C3C1A5FE95C002C5C4C /* MessageStatusBadgeViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageStatusBadgeViewTests.m; sourceTree = "<group>"; };
+		16289C4B1A5FF052002C5C4C /* BadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadgeView.h; sourceTree = "<group>"; };
+		16289C4C1A5FF052002C5C4C /* BadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadgeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		16289C1F1A5FE95C002C5C4C /* MessageStatusBadgeView */ = {
 			isa = PBXGroup;
 			children = (
+				16289C4A1A5FF037002C5C4C /* BadgeView */,
 				16289C241A5FE95C002C5C4C /* AppDelegate.h */,
 				16289C251A5FE95C002C5C4C /* AppDelegate.m */,
 				16289C271A5FE95C002C5C4C /* ViewController.h */,
@@ -117,6 +121,15 @@
 				16289C3B1A5FE95C002C5C4C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16289C4A1A5FF037002C5C4C /* BadgeView */ = {
+			isa = PBXGroup;
+			children = (
+				16289C4B1A5FF052002C5C4C /* BadgeView.h */,
+				16289C4C1A5FF052002C5C4C /* BadgeView.m */,
+			);
+			name = BadgeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16289C4D1A5FF052002C5C4C /* BadgeView.m in Sources */,
 				16289C291A5FE95C002C5C4C /* ViewController.m in Sources */,
 				16289C261A5FE95C002C5C4C /* AppDelegate.m in Sources */,
 				16289C231A5FE95C002C5C4C /* main.m in Sources */,
@@ -412,6 +426,7 @@
 				16289C421A5FE95C002C5C4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16289C431A5FE95C002C5C4C /* Build configuration list for PBXNativeTarget "MessageStatusBadgeViewTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +435,7 @@
 				16289C451A5FE95C002C5C4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
