@@ -10,3 +10,4 @@ xcuserdata/
 *.psd
 *.patch
 project.xcworkspace/
+cordova.ios.js
